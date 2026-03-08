@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "fuzzy bubbles";
+    src: url("FuzzyBubbles-Bold.ttf");
+}
+
+body {
+    font-family: Futura;
+    font-size: 16px;
+    color: darkslateblue;
+    background-color: #faf9f6; 
+    padding: 10px 20px;
+}
+
+h1 {
+    font-family: fuzzy bubbles;
+    font-size: 64px;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    
+}
+
+.btn {
+    font-size: 35px;
+    color: coral;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid coral;
+    margin: 10px 0;
+    padding: 20px 60px;
+    text-decoration: none;
+    text-align: center;
+    
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: coral;
+    color: white;
+}
+
+#btn-container {
+    text-align: center;
+}
+
+blockquote {
+    font-size: 1.5em;
+    color: #444;
+    font-style: italic;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-left: 5px solid pink;
+    background: #fff0f5;
+    max-width: 600px;
+}

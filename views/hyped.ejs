@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A gift for you 💖</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/gif" href="/images/rainbow3.png">
+  <style>
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 36px;
+        margin-left: 70px;
+    }
+    .btn {
+        font-family: Futura;
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+    }
+  </style>
+</head>
+<body>
+
+<main>
+  <h1>You chose hype! 💪<br>Take on the challenge below:</h1>
+
+  <form action="/hyped" method="POST">
+    <p>Write at least one nice thing about yourself:</p>
+    <textarea name="message" required></textarea>
+    <br><br>
+    <button class="btn" type="submit">Next</button>
+  </form>
+
+</main>
+</body>
+</html>
